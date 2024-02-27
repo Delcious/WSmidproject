@@ -11,6 +11,6 @@ with open (args.filename,'r') as f:
     for order in data:
         name =order["name"]
         phone = order ["phone"]
-
+        customer[name] = phone
 with open('customers.json','w') as f:
     json.dump(customer,f)
