@@ -26,5 +26,5 @@ The items.py file takes example_orders.json as input. Compiler goes into main me
 Make sure all the files are in the same directory. 
 
 
-After the execution of file 2 files customer.json and items.json is created on the same directory. 
+After the execution of file 2 python files, customer.json and items.json is created on the same directory. 
 
